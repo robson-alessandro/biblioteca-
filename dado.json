@@ -1,0 +1,26 @@
+[
+    {
+        "titulo": "a maquina do tempo",
+        "autor": "H. G. Wells",
+        "publicacao": "21 de setembro de 1866",
+        "editora": "suma",
+        "genero": "ficcao cientifica",
+        "status": "disponivel"
+    },
+    {
+        "titulo": "senhor dos aneis",
+        "autor": "J. R. R. Tolkien",
+        "publicacao": "29 de julho de 1954",
+        "editora": " Allen & Unwin",
+        "genero": "Literatura fantastica",
+        "status": "disponivel"
+    },
+    {
+        "titulo": "duna",
+        "autor": "Frank Herbert",
+        "publicacao": " agosto de 1965",
+        "editora": " Aleph ",
+        "genero": "ficcao cientifica",
+        "status": "disponivel"
+    }
+]
