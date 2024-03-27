@@ -10,18 +10,18 @@ from pessoa import Pessoa
 print('----------sistema biblioteca-------------')
 escolha = 10
 
-##cria listas para amazenar usuario
+##cria listas para armazenar usuario
 listaDeEstudante = []
 listaDeProfessor = []
 
-## carrega os livros do banco de dados para o objeto livros
+## carregar os livros do banco de dados para o objeto livros
 livros = Biblioteca()
 livros.carregar_banco()
 
-## cria uma listra de registros para amazenar os emprestimos
+## cria uma lista de registros para armazenar os emprestimos
 registros = Registros()
 
-## variavel para criar id ususario seguencialmente 
+## variavel para criar id usuário seguencialmente 
 gerarId = 1
 
 ## variavel para criar id emprestimo seguencialmente
@@ -33,7 +33,7 @@ while escolha != 0:
 
     match escolha:
 
-        ## metodo para criar o usuario (estudante ou professor)
+        ## metodo para criar o usuário (estudante ou professor)
         case 1:
             print('******criar usuario*******')
             nome = input('digite o nome do usuario:')
